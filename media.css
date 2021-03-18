@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+    header {
+        grid-template-columns:1fr;
+        grid-template-areas :" header-image " 
+        "header-title ";
+                               
+    }
+    
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:"image-walking "
+                             "requirements "
+                            "playability-image2"
+                            "playability"
+                            "playability-image"
+                           
+                           ;
+    }
+    .playability-image {
+        width: 100%;
+        border-style: groove;
+        border-radius: 10px;
+        
+    } 
+    .playability-image2 {
+        width: 100%;
+        border-style: groove;
+        border-radius: 10px;
+        
+    }
+}
